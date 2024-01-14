@@ -46,8 +46,8 @@ html, body {
 
   .buttons {
     display: flex;
-    gap: 10px; /* Adjust the value to set the desired space between buttons */
-    margin-top: 20px; /* Optional: Adjust the margin-top for additional spacing */
+    gap: 10px; 
+    margin-top: 20px; 
     
   }
   .buttons button{
@@ -58,9 +58,9 @@ html, body {
   }
 
   .buttons button:hover{
-    background-color: rgb(212, 96, 100); /* Dark semi-transparent color on hover */
+    background-color: rgb(212, 96, 100); 
   }
-  .buttons button:after {
-    background-color: rgb(209, 79, 84); /* Dark semi-transparent color on click */
+  body .buttons button:active {
+    --bs-btn-active-bg:  rgb(209, 79, 84); 
   }
   
