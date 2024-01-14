@@ -1,0 +1,66 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    
+  }
+  
+  body {
+    min-width: 600px; 
+  }
+  
+  .centered-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; 
+    text-align: center;
+    overflow: auto; 
+    
+  }
+
+  .logo-container img {
+    width: 100%;
+    height: auto;
+  }
+
+.intro{
+    font-size: 1.1rem;
+    
+}
+
+.cchem, .intro{
+    font-family: 'Sansation', sans-serif;
+  }
+
+  .cchem{
+    font-weight: 1em;
+    font-size: 2rem;
+    color: black;
+  }
+  .buttons, .login, .footer{
+    font-family: 'Outfit', sans-serif;
+  }
+
+  .buttons {
+    display: flex;
+    gap: 10px; /* Adjust the value to set the desired space between buttons */
+    margin-top: 20px; /* Optional: Adjust the margin-top for additional spacing */
+    
+  }
+  .buttons button{
+    background-color: rgb(247, 148, 151);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .buttons button:hover{
+    background-color: rgb(212, 96, 100); /* Dark semi-transparent color on hover */
+  }
+  .buttons button:after {
+    background-color: rgb(209, 79, 84); /* Dark semi-transparent color on click */
+  }
+  
