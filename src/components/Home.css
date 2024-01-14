@@ -28,6 +28,7 @@ html, body {
 
 .intro{
     font-size: 1.1rem;
+    margin-bottom: 10px;
     
 }
 
@@ -46,8 +47,7 @@ html, body {
 
   .buttons {
     display: flex;
-    gap: 10px; 
-    margin-top: 20px; 
+    gap: 30px; 
     
   }
   .buttons button{
@@ -55,12 +55,42 @@ html, body {
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    padding: 10px 45px; 
+    margin: 5px;
+    font-weight: light;
   }
 
   .buttons button:hover{
     background-color: rgb(212, 96, 100); 
   }
+
   body .buttons button:active {
     --bs-btn-active-bg:  rgb(209, 79, 84); 
   }
-  
+
+.login{
+    margin-top: 1.7rem;
+    font-size: 1.5rem;
+}
+
+body .login-btn{
+    border: none;
+    background-color: none;
+    text-decoration: underline;
+    color: #F79497;
+    font-size: 1.5rem;
+  }
+
+  body .login-btn:hover{
+    color: rgb(212, 96, 100);
+  }
+
+  body .login-btn:active{
+    --bs-btn-active-color:  rgb(209, 79, 84); 
+  }
+
+  body .login{
+display: flex;
+  align-items: center; 
+  }
+

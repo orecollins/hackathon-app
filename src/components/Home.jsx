@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import Logo from "./Logo";
 import Button from "react-bootstrap/Button";
 import "./Home.css";
-import ButtonGroup from "react-bootstrap/ButtonGroup";
 
 
 const Home = () => {
@@ -19,7 +18,7 @@ const Home = () => {
                         <Button to="/createstudentaccount"> I'm a Student</Button>
                         <Button to="/createrecruiteraccount">I'm a Recruiter</Button>
                 </div>
-                <p className="login">Have an account? <Button type="button" class="btn btn-link">Login Here</Button></p>   
+                <p className="login">Have an account? <Button variant="link" className="login-btn">Login Here</Button></p>   
             </div>
             <footer className="footer"> <p><Button variant="link">Learn more</Button> about CareerChemistry</p></footer>
         </body>
